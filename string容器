@@ -1,1 +1,7 @@
  find()函数
+ 当find函数找不到对应字符时，会返回一个string::npos的常数,说明查找没有匹配
+int index = str.find('abc');
+if(index == string::npos){
+ ...
+}
+ 
